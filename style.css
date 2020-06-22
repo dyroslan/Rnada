@@ -1,0 +1,27 @@
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+body {
+  background-image: url('images/white.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body 
+{
+background-color: white;
+}
+
+h1
+{
+color: #ffd500;
+text-align: center;
+}
+
+p
+{
+color: #FF69B4;
+}
+

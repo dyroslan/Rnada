@@ -1,0 +1,13 @@
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+.container {
+ width: 95%;
+ overflow: hidden;
+ background: peachpuff;
+ margin: 20px auto;
+ padding: 20px 0px;
+}
+
+

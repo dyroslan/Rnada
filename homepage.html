@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<title>R'Nada Kitchen Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/white.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+     <a href="about us.html" class="w3-button w3-block w3-black">ABOUT US</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="team members.html" class="w3-button w3-block w3-black">TEAM</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="menucard.html" class="w3-button w3-block w3-black">MENU & PRODUCTS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="event.html" class="w3-button w3-block w3-black">EVENTS</a>
+    </div>
+  </div>
+</div>
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 7am to 10pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-black" style="font-size:90px">R'Nada<br>Kitchen</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Jalan Dato Maharaja Lela,Kuala Kangsar</span>
+  </div>
+</header>
+
+
+<div class="w3-transparent w3-large">
+
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE BAKERY</span></h5>
+    <p>The R'NADA Kitchen is an Malay-style bakery that established in 2019 to bring people to the full Malay environment when they enter into our bakery shop. This bakery only have one shop and it is the HQ. It is opened on Jalan Dato Maharaja Lela in Kuala Kangsar, Perak since 2019.</p>
+    <p>In addition to our variety menu of western pastries our bakery also specializes in traditional Malay sweets and cuisine.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Food is our common ground, a universal experience."</i></p>
+      <p>James Bread</p>
+    </div>
+    <img src="images/R_NADA KITCHEN.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 7am to 10pm.</p>
+    <p><strong>Address:</strong>Jalan Dato Maharaja Lela,Kuala Kangsar, Perak</p>
+  </div>
+</div>
+
+
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Dine in');" id="myLink">
+        <div class="w3-col s6 tablink">Dine in</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Drink</div>
+      </a>
+    </div>
+
+    <div id="Dine in" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Cadbury Layered Cake</h5>
+      <p class="w3-text-grey">Kek Lapis Sarawak with our special twist 4.50/slice</p><br>
+    
+      <h5>Nasi Dagang</h5>
+      <p class="w3-text-grey">Rice steamed in coconut milk, fish curry and extra ingredients such as pickled cucumber and carrots 5.00</p><br>
+    
+      <h5>Ais Kacang</h5>
+      <p class="w3-text-grey">shaved ice with colored syrup and toppings such as red beans, peanuts, agar agar and atap chee 3.50</p><br>
+    
+      <h5>Bubur Pulut Hitam</h5>
+      <p class="w3-text-grey">Sweet dessert made from black glutinous rice porridge with coconut milk and palm sugar or cane sugar 3.50</p><br>
+    
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Grass Jelly Chocolate Drink</h5>
+      <p class="w3-text-grey">R'Nada's signature recipe 2.50</p><br>
+    
+      <h5>Orange Juice Cocktail</h5>
+      <p class="w3-text-grey">Refreshing cocktail for a hot day 3.50</p><br>
+    
+      <h5>Soft Drinks</h5>
+      <p class="w3-text-grey">Pepsi, Sprite, Mountain Dew, etc. 1.50</p>
+    </div>  
+    <img src="images/cafe.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <p>Find us at some address at some place.</p>
+    <p><span class="w3-tag">Just to let you know!</span> We offer full-service catering for any event, be it large or small. We understand your needs and we will cater the food to satisfy both looks and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message!:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+</div>
+
+
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>This Website is Developed for Introduction to Web Content Management and Design (IMD311).</p>
+  <p>Any information or material are used for educational purpose only</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
